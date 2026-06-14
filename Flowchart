@@ -1,0 +1,67 @@
+   System Flowchart
+The following describes the overall flow of the Employee Attendance System. The
+flowchart diagram has been created and saved in the Flowcharts folder of the FitHub repository.
+The system follows this general flow:
+1. START- The program begins execution.
+2. MAIN MENU- The user is presented with the following options:
+• 1- Add Employee Record
+• 2- Search Employee Record
+• 3- Display All Records
+• 4- Update Attendance Status
+• 5- Exit Program
+￼ 6
+3. ADD RECORD- The user enters an Employee ID, Employee Name and Attendance
+Status. The system validates the input and adds the record to the array. A confirmation
+message is displayed.
+4. SEARCH RECORD- The user enters an Employee ID or Employee Name. The
+system searches the records and displays the matching employee information or an
+error message if not found.
+5. DISPLAY RECORDS- Te system displays all current employee attendance records in
+a formatted table.
+6. UPDATE STATUS- The user enters the Employee ID and a new Attendance Status.
+The system locates the record and updates the status. A confirmation message is
+displayed.
+7. GENERATE SUMMARY REPORT- The system calculates and displays the total
+number of employees, the number of employees Present, the number of employees
+Absent, and the number of employees on Leave.
+8. EXIT PROGRAM- The program terminates and a farewell message is displayed.
+Program Structure
+The following major dictions have been identified for future software implementation.
+These functions correspond directly to the system flowchart and the main menu options.
+￼ 7
+Function Name Description
+add_record() Prompts the user to enter Employee ID, Name, and Attendance Status.
+Validates input and adds the record to system array.
+search_record() Accepts a search term (Employee ID or Name) and returns the matching
+employee record or an error message if not found.
+display_records() Iterates through all stores records and displays them in a formatted,
+relatable layout.
+update_status() Locates an employee record by ID and updates the attendance status to a
+new below provided by the user.
+generate_report() Calculates and displays a summary of total employees, present count,
+absent count, and on-leave count.
+main_menu() Displays the main menu options and routes the user to the selected
+function.
+Team Responsibilities
+The following roles and responsibilities have been assigned to each team member. These
+assignments were determined collaboratively during the team’s initial planning meeting. All team
+members are expected to actively participate in project communications and respond to messages
+within 24 hours.
+Team Member Role Responsibilities
+￼ 8
+Miluska Altamirano Project Manager Coordinates team activities, tracks overall
+project progress, ensures taglines are met,
+and facilitates team communications.
+Lizandra Medina Documentation
+Manager
+Maintains all project documentation,
+organizes project files, and prepaid written
+deliverables for submission.
+Star Valladares GitHub Coordinator Creates and manages the GitHub repository,
+adds team members as collaborators, and
+ensures repository structure is properly
+maintained.
+Johnny Perez Software Developer Leads the design of the program structure
+identifies major functions, and will be
+responsible for future software
+implementation activities.
