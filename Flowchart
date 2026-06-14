@@ -1,5 +1,5 @@
    System Flowchart
-The following describes the overall flow of the Employee Attendance System. The
+The following describes the overall flow of the Employee Attendance System. TheA 
 flowchart diagram has been created and saved in the Flowcharts folder of the FitHub repository.
 The system follows this general flow:
 1. START- The program begins execution.
@@ -10,34 +10,34 @@ The system follows this general flow:
 • 4- Update Attendance Status
 • 5- Exit Program
 ￼ 6
-3. ADD RECORD- The user enters an Employee ID, Employee Name and Attendance
+3. ADD RECORD- The user enters an Employee ID, Employee Name, and Attendance
 Status. The system validates the input and adds the record to the array. A confirmation
 message is displayed.
 4. SEARCH RECORD- The user enters an Employee ID or Employee Name. The
 system searches the records and displays the matching employee information or an
 error message if not found.
-5. DISPLAY RECORDS- Te system displays all current employee attendance records in
+5. DISPLAY RECORDS- The system displays all current employee attendance records in
 a formatted table.
 6. UPDATE STATUS- The user enters the Employee ID and a new Attendance Status.
 The system locates the record and updates the status. A confirmation message is
 displayed.
 7. GENERATE SUMMARY REPORT- The system calculates and displays the total
-number of employees, the number of employees Present, the number of employees
+number of employees, the number of employees Present, and the number of employees
 Absent, and the number of employees on Leave.
-8. EXIT PROGRAM- The program terminates and a farewell message is displayed.
+8. EXIT PROGRAM- The program terminates, and a farewell message is displayed.
 Program Structure
-The following major dictions have been identified for future software implementation.
+The following major decisions have been identified for future software implementation.
 These functions correspond directly to the system flowchart and the main menu options.
 ￼ 7
-Function Name Description
+Function Name Description: 
 add_record() Prompts the user to enter Employee ID, Name, and Attendance Status.
-Validates input and adds the record to system array.
+Validates input and adds the record to the system array.
 search_record() Accepts a search term (Employee ID or Name) and returns the matching
 employee record or an error message if not found.
-display_records() Iterates through all stores records and displays them in a formatted,
+display_records(): Iterates through all store records and displays them in a formatted,
 relatable layout.
 update_status() Locates an employee record by ID and updates the attendance status to a
-new below provided by the user.
+new value provided by the user.
 generate_report() Calculates and displays a summary of total employees, present count,
 absent count, and on-leave count.
 main_menu() Displays the main menu options and routes the user to the selected
@@ -49,19 +49,19 @@ members are expected to actively participate in project communications and respo
 within 24 hours.
 Team Member Role Responsibilities
 ￼ 8
-Miluska Altamirano Project Manager Coordinates team activities, tracks overall
+Miluska Altamirano, Project Manager, coordinates team activities, tracks overall
 project progress, ensures taglines are met,
 and facilitates team communications.
 Lizandra Medina Documentation
 Manager
 Maintains all project documentation,
-organizes project files, and prepaid written
+organizes project files, and pre-written
 deliverables for submission.
-Star Valladares GitHub Coordinator Creates and manages the GitHub repository,
+Star Valladares, GitHub Coordinator, creates and manages the GitHub repository,
 adds team members as collaborators, and
-ensures repository structure is properly
+ensures the repository structure is properly
 maintained.
-Johnny Perez Software Developer Leads the design of the program structure
+Johnny Perez, Software Developer, leads the design of the program structure
 identifies major functions, and will be
 responsible for future software
 implementation activities.
