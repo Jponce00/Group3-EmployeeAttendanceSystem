@@ -46,5 +46,21 @@ def search_record(records, search_term):
     # TODO: Implementation in Phase 3
     pass
 
+def display_records(records):
+    """
+    Display all employee attendance records in a formatted table.
+
+    Parameters:
+        records (list): The current list of employee attendance records.
+
+    Returns:
+        None: Displays all employee attendance records.
+
+    Author: Miluska Altamirano
+    Status: Stub - Implementation pending Phase 3
+    """
+
+    # TODO: Implementation in Phase 3
+    pass
 
    
